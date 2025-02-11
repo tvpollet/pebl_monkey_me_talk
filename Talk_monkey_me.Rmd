@@ -74,7 +74,7 @@ knitr::include_graphics("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHAwM
 
 --
 
-* When coding this textbooks - Example species chosen.
+* When coding examples of primates in textbooks - Example species chosen.
 
 --
 
