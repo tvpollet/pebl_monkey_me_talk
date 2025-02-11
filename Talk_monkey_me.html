@@ -131,7 +131,7 @@ Scorpionflies...
 ---
 ## This project
 
-* How do students perceive similarity of species to humans - and what is the role of different domains (e.g., Diet vs. sociality) 
+* How do students perceive similarity of species to humans - and what is the role of different domains (e.g., Diet vs. sociality)? 
 
 --
 
@@ -201,13 +201,13 @@ Scorpionflies...
 * Widely used to model symptom networks, etc. This is a method for variable selection. See [Constantini et al. 2015](https://doi.org/10.1016/j.jrp.2014.07.003) for a tutorial.
 
 ---
-## Clique percolation (Lange, 2011)
+## Clique percolation method (CPM, Lange, 2011)
 
 * Many algorithmic methods exist to find structure in networks ("clusters"/"modules"/"communities"): [Louvain method](https://doi.org/10.1088/1742-5468/2008/10/P10008) (Blondel et al., 2008) / [Leiden method](https://doi.org/10.1038/s41598-019-41695-z) (Traag et al.2019)
 
 --
 
-* Most algorithms force unique cluster membership, and also force that each node is part of a cluster.
+* Most algorithms force unique cluster membership, and also force that each node is part of a cluster. --&gt; not case for CPM
 
 --
 
@@ -330,7 +330,7 @@ They do differ:
 
 --&gt; but both have two clusters of 3 nodes.
 
-&lt;img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXlkZm9iZGt3eGNnZTJhczZnMHZoMTMwYmRqeTQxeWphYWE2MGZ3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xBIuPT5pjvarJZXyBw/giphy.gif" width="375px" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXlkZm9iZGt3eGNnZTJhczZnMHZoMTMwYmRqeTQxeWphYWE2MGZ3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xBIuPT5pjvarJZXyBw/giphy.gif" width="350px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Biology
@@ -388,15 +388,15 @@ They do differ:
 ---
 ## Mixed model ANOVA (exploratory)
 
-| Effect                          | df               | MSE     | F           | η²   | p.      |
+| Effect                          | df               | MSE     | F           | η²   | p      |
 |---------------------------------|------------------|---------|-------------|-------|---------|
 | Discipline Prolific             | 1, 455           | 12394.99| 1.60        | .001  | .206    |
-| trait                           | 6.86, 3121.58    | 809.43  | 134.91 ***  | .049  | &lt;.001   |
-| Discipline Prolific:trait       | 6.86, 3121.58    | 809.43  | 4.40 ***    | .002  | &lt;.001   |
-| species                         | 3.52, 1602.37    | 1742.36 | 1287.30 *** | .352  | &lt;.001   |
+| trait                           | 6.86, 3121.58    | 809.43  | 134.91.     | .049  | &lt;.001   |
+| Discipline Prolific:trait       | 6.86, 3121.58    | 809.43  | 4.40        | .002  | &lt;.001   |
+| species                         | 3.52, 1602.37    | 1742.36 | 1287.30.    | .352  | &lt;.001   |
 | Discipline Prolific:species     | 3.52, 1602.37    | 1742.36 | 0.29        | &lt;.001 | .860    |
-| trait:species                   | 29.68, 13506.48  | 266.54  | 89.76 ***   | .047  | &lt;.001   |
-| Discipline Prolific:trait:species| 29.68, 13506.48  | 266.54  | 1.60 *      | &lt;.001 | .021    |
+| trait:species                   | 29.68, 13506.48  | 266.54  | 89.76       | .047  | &lt;.001   |
+| Discipline Prolific:trait:species| 29.68, 13506.48  | 266.54  | 1.60       | &lt;.001 | .021    |
 
 ---
 ## Plot: Discipline
