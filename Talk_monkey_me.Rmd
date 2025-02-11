@@ -78,7 +78,7 @@ knitr::include_graphics("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHAwM
 
 --
 
-* Example: For example, Buss (2019: 502) writes: _‘other primates besides humans, such as chimpanzees, baboons, and macaques, also engage in reciprocal helping (de Waal, 1982). Taken together, this evidence suggests a long evolutionary history of altruism.’._
+* For example, Buss (2019: 502) writes: _‘other primates besides humans, such as chimpanzees, baboons, and macaques, also engage in reciprocal helping (de Waal, 1982). Taken together, this evidence suggests a long evolutionary history of altruism.’._
 
 ```{r, out.width = "250px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGtnYWR0c2xsdzBkdnRyenl3MXk0Mng1bHpibTlkbHdxMnYyd3c2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orieS4jfHJaKwkeli/giphy.gif") 
@@ -494,7 +494,6 @@ knitr::include_graphics("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3Q0M
 ```
 
 
-
 ---
 ## Limitations
 
@@ -516,7 +515,7 @@ knitr::include_graphics("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmRmb
 ---
 ## Moving forward... 
 
-* Experts to rate same things.
+* Experts with same design.
 
 --
 
