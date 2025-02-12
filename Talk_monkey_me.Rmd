@@ -394,9 +394,9 @@ knitr::include_graphics("duck_mouse_dolphin_chimp_ant.jpg")
 | Effect                          | df               | MSE     | F           | η²   | p      |
 |---------------------------------|------------------|---------|-------------|-------|---------|
 | Discipline Prolific             | 1, 455           | 12394.99| 1.60        | .001  | .206    |
-| trait                           | 6.86, 3121.58    | 809.43  | 134.91.     | .049  | <.001   |
+| trait                           | 6.86, 3121.58    | 809.43  | 134.91      | .049  | <.001   |
 | Discipline Prolific:trait       | 6.86, 3121.58    | 809.43  | 4.40        | .002  | <.001   |
-| species                         | 3.52, 1602.37    | 1742.36 | 1287.30.    | .352  | <.001   |
+| species                         | 3.52, 1602.37    | 1742.36 | 1287.30     | .352  | <.001   |
 | Discipline Prolific:species     | 3.52, 1602.37    | 1742.36 | 0.29        | <.001 | .860    |
 | trait:species                   | 29.68, 13506.48  | 266.54  | 89.76       | .047  | <.001   |
 | Discipline Prolific:trait:species| 29.68, 13506.48  | 266.54  | 1.60       | <.001 | .021    |
@@ -430,14 +430,15 @@ knitr::include_graphics("em_species_2.png")
 
 --> None of these survive correction for multiple testing suggests we can broadly compare... . It's to be expected we'll find some different layouts given the different target species - but suggestive of roughly similar layout of domains.
 
+--
+
 **Strength invariance**: 
 
-Some of these are different at _p_ = .001 (but likely does not survive correction). This implies the strength of the edges between the nodes could vary between species. 
+Some of these are different at _p_ = .001 (Mouse vs. Ant; Duck vs. Chimp; Chimp vs. Ant).  This implies the strength of the edges between the nodes could vary between species. 
 
 ```{r, out.width = "250px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("duck_cute.png")
 ```
-
 ---
 ## Ant - `r emoji("ant")`
 
